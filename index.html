@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
+    <script src = "js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Triangle Tracker</h1>
+
+      <div class='row'>
+        <div class='col-md-3'>
+          <h2>Triangle Tracker</h2>
+          <form id='triangleInput'>
+            <div class='form-group'>
+              <label for='side1'>Side 1</label>
+              <input type='text' class='form-control' id='side1'>
+            </div>
+            <div class='form-group'>
+              <label for='side2'>Side 2</label>
+              <input type='text' class='form-control' id='side2'>
+            </div>
+            <div class='form-group'>
+              <label for='side3'>Side 3</label>
+              <input type='text' class='form-control' id='side3'>
+            </div>
+
+            <button type='submit' class='btn'>Add</button>
+          </form>
+        </div>
+        <div class='col-md-3'>
+
+          <h2>Equilateral</h2>
+          <ul id='equilResults'></ul>
+          
+        </div>
+        <div class='col-md-3'>
+
+          <h2>Isosceles</h2>
+          <ul id='isoResults'></ul>
+          
+        </div>
+        <div class='col-md-3'>
+          <h2>Scalene</h2>
+          <ul id='scalResults'></ul>
+          
+        </div>
+         <!--  <div id="show-contact" class="col-md-6">
+            <h2 id="contactInfo"></h2>
+              <p class = "color">First Name: <span class="first-name"> </span></p>
+              <p class = "color">Last Name: <span class="last-name"> </span></p>
+              <p class = "color">Address: <span class="address"> </span></p>
+        </div> -->
+    </div>
+  </div>
+  </body>
+</html>
